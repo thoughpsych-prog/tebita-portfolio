@@ -30,6 +30,28 @@ export default function Hero() {
         }}
       />
 
+      <div className="absolute top-16 left-1/2 transform -translate-x-1/2 z-20 text-center max-w-4xl px-8">
+        <div className="overflow-hidden mb-4">
+          <p className="text-xs md:text-sm font-mono text-[#C0C0C0]/70 tracking-[0.3em] uppercase animate-[slideDown_0.8s_ease-out]">
+            Welcome to the Future
+          </p>
+        </div>
+        <div className="overflow-hidden">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold text-[#E0E0E0] leading-tight tracking-tight animate-[slideDown_1s_ease-out_0.2s_backwards]">
+            Where Every Line of Code
+            <br />
+            Creates <span className="liquid-text">Infinite Ripples</span>
+          </h2>
+        </div>
+        <div className="overflow-hidden mt-6">
+          <p className="text-sm md:text-base text-[#C0C0C0]/80 font-light leading-relaxed max-w-2xl mx-auto animate-[slideDown_1.2s_ease-out_0.4s_backwards]">
+            Precision-engineered solutions in artificial intelligence, full-stack architecture,
+            and hyper-automation. We don't just build technology—we engineer flow.
+          </p>
+        </div>
+        <div className="mt-8 h-px w-32 mx-auto bg-gradient-to-r from-transparent via-[#C0C0C0] to-transparent animate-[expand_1.5s_ease-out_0.6s_backwards]" />
+      </div>
+
       <div className="relative z-10 flex items-center justify-center w-full h-full">
         <div
           ref={sphereRef}

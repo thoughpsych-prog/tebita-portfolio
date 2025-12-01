@@ -46,6 +46,28 @@ h1, h2, h3, h4, h5, h6 {
   50% { background-position: 100% 50%; }
 }
 
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes expand {
+  0% {
+    width: 0;
+    opacity: 0;
+  }
+  100% {
+    width: 8rem;
+    opacity: 1;
+  }
+}
+
 .glass-card {
   background: rgba(224, 224, 224, 0.02);
   backdrop-filter: blur(40px);
